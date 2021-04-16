@@ -3,9 +3,9 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class Calculator extends StatefulWidget {
   const Calculator(
-      {@required this.gender,
-      @required this.genderIcon,
-      @required this.tagName});
+      {required this.gender,
+      required this.genderIcon,
+      required this.tagName});
   final String gender;
   final Widget genderIcon;
   final String tagName;
